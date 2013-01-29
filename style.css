@@ -1,0 +1,267 @@
+@font-face {
+	font-family: Maven Pro;
+	src: url("lib/MavenPro-Regular.ttf");
+}
+
+@font-face {
+	font-family: Maven Pro Bold;
+	src: url("lib/MavenPro-Bold.ttf");
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Maven Pro', sans-serif;
+	width: 100%; 
+	height: 100%; 
+	margin: 0;
+}
+
+img {
+	border: none;
+}
+
+#welcome {
+	display: none;
+}
+
+#headerbar {
+	border: 1px solid #d49768; 
+	background: #cb842e url(lib/images/ui-bg_glass_25_cb842e_1x400.png) 50% 50% repeat-x; 
+	border-bottom: 1px solid orange;
+	color: #ffffff; 
+	font-weight: bold;
+	height: 40px;
+	font-size: 30px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+@font-face {
+  font-family: "Whiteboard";
+  src: url("lib/Whiteboard-Modern-Demo.ttf");
+}
+
+#map {
+	width: 75%;
+	height: 100%;
+	float: left;
+}
+
+.contact {
+	padding-top:5px;
+	float: right;
+	width: 30px;
+	margin-right: 15px;
+	cursor: pointer;
+
+
+}
+
+#contactIcon {
+	width: 25px;
+
+}
+
+#search {
+	
+	position: absolute;
+	right: 0px;
+	width: 25%;
+	height: 100%;
+	float: left;
+	border: 1px solid #e0cfc2; background: #f4f0ec url(lib/images/ui-bg_inset-soft_100_f4f0ec_1x100.png) 50% bottom repeat-x; color: #1e1b1d;
+}
+
+#addMarker {
+	font-size: 12px;
+	
+}
+
+#addMarker input, #addMarker textarea {
+	width: 100%;
+}
+
+#submitMarker {
+	cursor: pointer;
+}
+
+#addMarker textarea {
+	height: 30%;
+	margin-bottom: 10px;
+
+	
+}
+
+.button {
+	width: 100%;
+	height: 25px;
+	margin-top: 5px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#resultList {
+	list-style-type: none;
+	display: none;
+	/*padding-top: 5px;*/
+	padding-left: 0;
+	margin: 0;
+
+}
+
+.infoWindow {
+	height: 75px;
+	padding: 3px;
+	padding-top: 10px;
+}
+
+.resultListItem {
+	padding-left: 10px;
+	border-bottom: 1px solid #e0cfc2;
+	cursor: pointer;
+	
+}
+
+#results {
+	max-height: 150px;
+	overflow: auto;
+
+}
+
+#resultListContainer {
+	overflow-y: scroll;
+	max-height: 40%;
+	
+}
+
+#thumbIcon, .clockIcon {
+	height: 15px;
+	cursor: pointer;
+}
+
+#dBemerkung {
+	overflow-y: scroll;
+	margin: 0;
+	max-height: 80%;
+	padding-top: 10px;
+}
+
+.distance {
+	font-size: 12px;
+}
+
+.latValue, .lngValue, .name, .city, .plz, .street, .country, .bemerkung, .phone, .rating, #dLat, #dLng, .official {
+	display: none;
+}
+
+#add {
+	/*border-bottom: 1px dashed #e0cfc2;*/
+	text-align:center;
+}
+
+#details {
+	overflow: none;
+}
+
+#detailsContainer {
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: none;
+}
+
+#addBar {
+	cursor: pointer;
+}
+
+#detailsContainer .addressP {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+.liNone {
+	padding: 10px;
+}
+
+#state-error, #state-highlight {
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	display: none;
+}
+
+
+
+
+#searchForm {
+	
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	margin: 0 auto;
+	width: 70%;
+	padding-bottom: 10px;
+}
+
+#searchFormContainer {
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #e0cfc2;
+}
+
+#key {
+	width: 80%;
+}
+#searchTitleBar {
+	text-align: center;
+	width: 100%;
+}
+
+.titleBar {
+	text-align: center;
+	background-color: white;
+	width: 100%;
+	margin: 0;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #e0cfc2;
+}
+
+.formDesc {
+	width: 20%;
+}
+
+#dPhone {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #e0cfc2;
+	display: none;
+}
+#dRating, #dOfficial, #dState {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*border-bottom: 1px dashed #e0cfc2;*/
+	text-align: center;
+}
+
+.tickIcon, .clockIcon {
+	height: 15px;
+}
+
+
