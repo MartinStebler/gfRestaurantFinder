@@ -19,7 +19,7 @@ foreach ($wasArray as &$value) {
 }
 $wo = $street."+".$plz."+".$city;
 $wo = str_replace(" ", "+", $wo);
-$params = 'was='.$was.'&wo='.$wo.'&key=f07304ab7eeb9e0cfa82366286d755e5';
+$params = 'was='.$was.'&wo='.$wo.'&key=XXXX';
 
 $response = file_get_contents('http://tel.search.ch/api/?'.$params);
 
